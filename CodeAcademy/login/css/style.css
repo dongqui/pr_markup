@@ -1,0 +1,110 @@
+:root {
+    --primary-color: #e50914;
+	--dark-color: #141414;
+	--light-color: #f4f4f4;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:"Nunito",sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container {
+    position: absolute;
+    width: 320px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header p {
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 1.8rem;
+    font-family: "Noto Sans CJK KR";
+}
+
+input {
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    padding: 10px;
+    border: 1px rgb(233, 234, 234) solid;
+}
+
+label {
+    color: rgb(72, 72, 72);;
+    font-size: 1rem;
+    font-weight: 900;
+
+}
+
+a {
+    margin: 20 0px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #2E4A99;
+    text-decoration: none;
+    width: 100%;
+    border-bottom: none;
+}
+
+button {
+    border: none;
+    background-color: #6300E4;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.social-login p {
+    font-weight: 900;
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    flex: 1 1 auto;
+    margin: 5px;
+}
+
+img {
+    width: 100%;
+    border: 3px solid #e7e7e7;
+    border-radius: 3px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 12px;
+    color: #5800CB;
+}
+footer p {
+    text-align: right;
+    font-weight: 500;
+}
+
+footer .sign-up-link {
+    font-weight: 900;
+    color: #5800CB;
+}
