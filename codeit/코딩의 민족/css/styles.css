@@ -1,0 +1,60 @@
+@font-face{ 
+  font-family:bm; 
+  src:url('../fonts/BMJUA_otf.otf'); 
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: bm;
+}
+
+body {
+  width: 100%;
+  background-color: #F0E8D9;
+}
+
+.header {
+  text-align: center;
+  margin:75px auto;
+}
+
+.header h1 {
+  font-size: 64px;
+  margin-bottom: 30px;
+}
+
+.header p {
+  font-size: 32px;
+}
+
+.item {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  width: 300px;
+  border-radius: 10px;
+  background-color: white;
+  color: #58595B;
+  overflow: hidden;
+}
+
+img {
+ width: 300px;
+ height: 200px;
+}
+
+.info-content {
+  padding: 20px;
+  text-align: center;
+}
+.info-content p {
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+
+.info-content a {
+  color:#0000EE; 
+}
+}
