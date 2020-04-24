@@ -64,3 +64,29 @@ body {
   text-decoration: none;
   border-radius: 5px;
 }
+
+ul {
+  padding: 0;
+  float: right;
+  margin: 0;
+}
+
+li {
+  padding: 0 10px;
+  list-style: none;
+  float: left;
+  text-align: center;
+}
+
+li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+  line-height: 60px;
+  display: block;
+  width: 50px;
+}
+
+li:hover {
+  background-color: #eeeeee;
+}
