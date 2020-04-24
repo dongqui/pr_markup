@@ -19,6 +19,7 @@ body {
 }
 
 #logo img {
+  height: 25px;
   vertical-align: middle;
 }
 
