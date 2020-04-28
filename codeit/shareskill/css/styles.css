@@ -1,0 +1,85 @@
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+.banner {
+  height:400px;
+  text-align: center;
+}
+
+.helper {
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.banner-info {
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+}
+
+.banner-info h2 {
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.banner-info h3 {
+  font-weight: 200;
+  font-size: 30px;
+  margin: 50px 0;
+}
+
+.banner-info a {
+  padding: 9px 40px;
+  background-color: purple;
+  text-decoration: none;
+  color: white;
+}
+
+.b-cooking {
+  background-image: url('../images/cooking.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+
+.b-guitar {
+  background-image: url('../images/guitar.jpg');
+  background-position: left center;
+  background-size: cover;
+}
+
+.b-makeup {
+  background-image: url('../images/makeup.jpg');
+  background-position: center top;
+  background-size: cover;
+}
+
+.contents {
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+.card-text {
+  font-weight: 700;
+  font-size: 15px;
+  position: absolute;
+  bottom: 20px;
+}
+
+.card-body {
+  height: 150px;
+}
+
+.card-text img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.row a {
+  text-decoration: none;
+  color: #4a4a4a;
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
