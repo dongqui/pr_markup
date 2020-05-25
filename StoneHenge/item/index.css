@@ -12,3 +12,28 @@
   background-color: var(--primary-color);
   height: 5px;
 }
+
+.logo-1 {
+  display: block;
+  margin: 20px auto;
+  width: 100px;
+}
+
+.category {
+  text-align: center;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+li {
+  display: inline-block;
+  list-style: none;    
+  flex: 1;
+}
+
+.category a {
+  padding: 20px;
+  color: #767676;
+  text-decoration: none;
+}
