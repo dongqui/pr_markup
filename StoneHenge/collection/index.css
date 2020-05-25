@@ -47,10 +47,28 @@ main {
   margin: 20px auto;
   height: 350px;
   width: 75%;
-  background-image: url(https://stonehenge.co.kr/admin/upload/STONE/AUTO/CO01/st_collection_w_she3.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+.item:nth-child(1) {
+  background-image: url(https://stonehenge.co.kr/admin/upload/STONE/AUTO/CO01/st_collection_w_she3.jpg);
+}
+
+.item:nth-child(2) {
+  background-image: url(https://stonehenge.co.kr/admin/upload/STONE/AUTO/CO01/st_collection_w_sil.jpg);
+}
+
+.item:nth-child(3) {
+  background-image: url(https://stonehenge.co.kr/admin/upload/STONE/AUTO/CO01/st_collection_honeymoon_1[1].jpg);
+}
+
+.item:nth-child(4) {
+  background-image:url(https://stonehenge.co.kr/admin/upload/STONE/AUTO/CO01/st_collection_w_silver.jpg);
+}
+
+.item:nth-child(5) {
+  background-image:url(https://stonehenge.co.kr/admin/upload/STONE/AUTO/CO01/st_collection_w_watch.jpg);
 }
 
 .discover {
