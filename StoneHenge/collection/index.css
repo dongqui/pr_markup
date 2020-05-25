@@ -1,0 +1,86 @@
+:root {
+  --primary-color: #6bbac9
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.roof-line {
+  background-color: var(--primary-color);
+  height: 5px;
+}
+
+.logo-1 {
+  display: block;
+  margin: 20px auto;
+  width: 100px;
+}
+
+.category {
+  text-align: center;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+li {
+  display: inline-block;
+  list-style: none;    
+  flex: 1;
+}
+
+.category a {
+  padding: 20px;
+  color: #767676;
+  text-decoration: none;
+}
+
+main {
+  background-color: #f9f9f9;
+  padding-top: 10px;
+}
+
+.item {
+  margin: 20px auto;
+  height: 350px;
+  width: 75%;
+  background-image: url(https://stonehenge.co.kr/admin/upload/STONE/AUTO/CO01/st_collection_w_she3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.discover {
+  padding-top: 50px;
+  width: 50%;
+  text-align: center;
+}
+
+.discover > h2 {
+  margin-top: 30px;
+}
+
+.discover > div {
+  background-color: var(--primary-color);
+  width: 50px;
+  height: 5px;
+  margin: 20px auto;
+}
+
+.discover > p {
+  margin: 30px auto;
+  text-align: center;
+  max-width: 60%;
+  word-wrap: break-word;
+}
+
+.discover > a {
+  padding: 7px 30px;
+  color: white;
+  text-decoration: none;
+  background-color: var(--primary-color);
+  font-weight: 100;
+}
