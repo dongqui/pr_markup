@@ -1,0 +1,14 @@
+:root {
+  --primary-color: #6bbac9
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.roof-line {
+  background-color: var(--primary-color);
+  height: 5px;
+}
